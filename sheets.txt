@@ -1,0 +1,304 @@
+A C E B S 
+A C E B S 
+A C E B 
+A C E D R U 
+A C E D R U 
+A C E D R 
+A C E D 
+A C D C T 
+A C D C T 
+A C D C 
+A C D E B U 
+A C D E B U 
+A C D E B 
+A C D E 
+A E B C 
+A E B C 
+A E B E R U 
+A E B E R U 
+A E B E R 
+A E B E 
+A E A C T 
+A E A C T 
+A E A C 
+A E A B D B U 
+A E A B D B U 
+A E A B D B 
+A E A B D 
+A E A B 
+B C E B S 
+B C E B S 
+B C E B 
+B C E D R U 
+B C E D R U 
+B C E D R 
+B C E D 
+B C D C T 
+B C D C T 
+B C D C 
+B C D E B U 
+B C D E B U 
+B C D E B 
+B C D E 
+B E B C 
+B E B C 
+B E B E R U 
+B E B E R U 
+B E B E R 
+B E B E 
+B E A C T 
+B E A C T 
+B E A C 
+B E A B D B U 
+B E A B D B U 
+B E A B D B 
+B E A B D 
+B E A B 
+C E E B S 
+C E E B S 
+C E E B 
+C E E D R U 
+C E E D R U 
+C E E D R 
+C E E D 
+C E Q C T 
+C E Q C T 
+C E Q C 
+C E Q B D B U 
+C E Q B D B U 
+C E Q B D B 
+C E Q B D 
+C E Q B 
+C A B C 
+C A B C 
+C A B E R U 
+C A B E R U 
+C A B E R 
+C A B E 
+C A C E C T 
+C A C E C T 
+C A C E C 
+C A C E E B U 
+C A C E E B U 
+C A C E E B 
+C A C E E 
+C A C D R U 
+C A C D R U 
+C A C D R 
+C A C D 
+D E E B S 
+D E E B S 
+D E E B 
+D E E D R U 
+D E E D R U 
+D E E D R 
+D E E D 
+D E Q C T 
+D E Q C T 
+D E Q C 
+D E Q B D B U 
+D E Q B D B U 
+D E Q B D B 
+D E Q B D 
+D E Q B 
+D A B C 
+D A B C 
+D A B E R U 
+D A B E R U 
+D A B E R 
+D A B E 
+D A C E C T 
+D A C E C T 
+D A C E C 
+D A C E E B U 
+D A C E E B U 
+D A C E E B 
+D A C E E 
+D A C D R U 
+D A C D R U 
+D A C D R 
+D A C D 
+E D B S 
+E D B S 
+E D B 
+E D A D C T 
+E D A D C T 
+E D A D C 
+E D A D E B U 
+E D A D E B U 
+E D A D E B 
+E D A D E 
+E D A E R U 
+E D A E R U 
+E D A E R 
+E D A E 
+E B D C 
+E B D C 
+E B D 
+E B E C T 
+E B E C T 
+E B E C 
+E B E E B U 
+E B E E B U 
+E B E E B 
+E B E E 
+A D B S 
+A D B S 
+A D B 
+A D A D C T 
+A D A D C T 
+A D A D C 
+A D A D E B U 
+A D A D E B U 
+A D A D E B 
+A D A D E 
+A D A E R U 
+A D A E R U 
+A D A E R 
+A D A E 
+A B D C 
+A B D C 
+A B D 
+A B E C T 
+A B E C T 
+A B E C 
+A B E E B U 
+A B E E B U 
+A B E E B 
+A B E E 
+B D B S 
+B D B S 
+B D B C D B U 
+B D B C D B U 
+B D B C D B 
+B D B C D 
+B D B C 
+B D A C T 
+B D A C T 
+B D A C 
+B D A B D B U 
+B D A B D B U 
+B D A B D B 
+B D A B D 
+B D A B 
+B B C D C 
+B B C D C 
+B B C D 
+B B C C D B U 
+B B C C D B U 
+B B C C D B 
+B B C C D 
+B B C C 
+B B A D C T 
+B B A D C T 
+B B A D C 
+B B A D E B U 
+B B A D E B U 
+B B A D E B 
+B B A D E 
+B B A E R U 
+B B A E R U 
+B B A E R 
+B B A E 
+C D B S 
+C D B S 
+C D B C D B U 
+C D B C D B U 
+C D B C D B 
+C D B C D 
+C D B C 
+C D A C T 
+C D A C T 
+C D A C 
+C D A B D B U 
+C D A B D B U 
+C D A B D B 
+C D A B D 
+C D A B 
+C B C D C 
+C B C D C 
+C B C D 
+C B C C D B U 
+C B C C D B U 
+C B C C D B 
+C B C C D 
+C B C C 
+C B A D C T 
+C B A D C T 
+C B A D C 
+C B A D E B U 
+C B A D E B U 
+C B A D E B 
+C B A D E 
+C B A E R U 
+C B A E R U 
+C B A E R 
+C B A E 
+D C B S 
+D C B S 
+D C B C D B U 
+D C B C D B U 
+D C B C D B 
+D C B C D 
+D C B C 
+D C C E C T 
+D C C E C T 
+D C C E C 
+D C C E E B U 
+D C C E E B U 
+D C C E E B 
+D C C E E 
+D C C D R U 
+D C C D R U 
+D C C D R 
+D C C D 
+D A C D C 
+D A C D C 
+D A C D 
+D A C C D B U 
+D A C C D B U 
+D A C C D B 
+D A C C D 
+D A C C 
+D A Q C T 
+D A Q C T 
+D A Q C 
+D A Q B D B U 
+D A Q B D B U 
+D A Q B D B 
+D A Q B D 
+D A Q B 
+E C B S 
+E C B S 
+E C B C D B U 
+E C B C D B U 
+E C B C D B 
+E C B C D 
+E C B C 
+E C C E C T 
+E C C E C T 
+E C C E C 
+E C C E E B U 
+E C C E E B U 
+E C C E E B 
+E C C E E 
+E C C D R U 
+E C C D R U 
+E C C D R 
+E C C D 
+E A C D C 
+E A C D C 
+E A C D 
+E A C C D B U 
+E A C C D B U 
+E A C C D B 
+E A C C D 
+E A C C 
+E A Q C T 
+E A Q C T 
+E A Q C 
+E A Q B D B U 
+E A Q B D B U 
+E A Q B D B 
+E A Q B D 
+E A Q B 

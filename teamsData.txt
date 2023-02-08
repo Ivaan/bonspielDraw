@@ -1,0 +1,10 @@
+Team1	A1
+Team2	A2
+Team3	A3
+Team4	A4
+Team5	A7
+Team6	A8
+Team7	A9
+Team8	A10
+Team9	A11
+Team10	A12

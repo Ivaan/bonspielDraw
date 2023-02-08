@@ -16,7 +16,7 @@ A15	Sat-2	ICE-D	A18	C6
 A16	Sat-2	ICE-C	A18	C2
 A17	Sun-1	ICE-B	A19	done
 A18	Sat-3	ICE-B	A19	D2
-A19	Sun-3	ICE-	win	done
+A19	Sun-3	ICE-D	win	done
 B1	Sat-1	ICE-A	B3	C4
 B2	Sat-1	ICE-B	B3	C1
 B3	Sat-4	ICE-C	B7	D2
@@ -29,18 +29,18 @@ B9	Sun-3	ICE-C	WinB	Done
 C1	Sat-3	ICE-A	C3	D6
 C2	Sat-3	ICE-C	C5	D5
 C3	Sat-4	ICE-D	C7	D4
-C4	Sat-3	ICE-B	C7	D1
+C4	Sat-3	ICE-D	C7	D1
 C5	Sat-4	ICE-E	C8	D4
 C6	Sat-4	ICE-A	C8	D1
 C7	Sun-1	ICE-C	C9	Done
 C8	Sun-2	ICE-C	C9	Done
-C9	Sun-3	Ice-?	WinC	Done
-D1	Sat-5	ICE- B	D3	Done
-D2	Sat-5	ICE- C	D3	Done
+C9	Sun-3	Ice-B	WinC	Done
+D1	Sat-5	ICE-B	D3	Done
+D2	Sat-5	ICE-C	D3	Done
 D3	Sun-1	ICE-D	D7	Done
 D4	Sun-1	ICE-E	D7	Done
 D5	Sat-5	ICE-D	D8	Done
 D6	Sat-5	ICE-E	D8	Done
 D7	Sun-2	ICE-B	D9	Done
-D8	Sun-1	ICE-C	D9	Done
-D9	Sun-3	ICE-?	WinD	Done
+D8	Sun-1	ICE-A	D9	Done
+D9	Sun-3	ICE-E	WinD	Done

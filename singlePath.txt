@@ -1,0 +1,82 @@
+s - Fri-1
+    ICE-A
+	w - Sat-1
+	    ICE-C
+		w - Sat-3
+		    ICE-E
+			w - Sun-1
+			    ICE-B
+				w - Sun-3
+				    ICE-D
+					win
+					done
+				done
+			l - Sat-5
+			    ICE-D
+				w - Sun-1
+				    ICE-A
+					w - Sun-3
+					    ICE-E
+						WinD
+						Done
+					Done
+				Done
+		l - Sat-4
+		    ICE-D
+			w - Sun-1
+			    ICE-C
+				w - Sun-3
+				    Ice-B
+					WinC
+					Done
+				Done
+			l - Sun-1
+			    ICE-E
+				w - Sun-2
+				    ICE-B
+					w - Sun-3
+					    ICE-E
+						WinD
+						Done
+					Done
+				Done
+	l - Sat-2
+	    ICE-E
+		w - Sat-4
+		    ICE-B
+			w - Sun-3
+			    ICE-C
+				WinB
+				Done
+			l - Sat-5
+			    ICE-E
+				w - Sun-1
+				    ICE-A
+					w - Sun-3
+					    ICE-E
+						WinD
+						Done
+					Done
+				Done
+		l - Sat-4
+		    ICE-A
+			w - Sun-2
+			    ICE-C
+				w - Sun-3
+				    Ice-B
+					WinC
+					Done
+				Done
+			l - Sat-5
+			    ICE-B
+				w - Sun-1
+				    ICE-D
+					w - Sun-2
+					    ICE-B
+						w - Sun-3
+						    ICE-E
+							WinD
+							Done
+						Done
+					Done
+				Done
