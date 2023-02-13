@@ -4,13 +4,18 @@ import (
 	"bufio"
 	"fmt"
 	"os"
+	"strconv"
 	"strings"
 )
 
 func main() {
 	bonspiel := loadBonspiel("drawData.txt")
 	teams := loadTeams("teamsData.txt")
-
+	draws := loadDraws("drawTimesData.txt")
+	drawmap := make(map[string]draw)
+	for _, d := range draws {
+		drawmap[d.name] = d
+	}
 	// for k, g := range bonspiel {
 	// 	fmt.Println(k, g)
 	// }
@@ -100,8 +105,9 @@ func main() {
 	// 	fmt.Println()
 	// }
 
-	var printTeamTree func(g *game, wl string, tabs int)
-	printTeamTree = func(g *game, wl string, tabs int) {
+	var printTeamTree func(g *game, wl string)
+	printTeamTree = func(g *game, wl string) {
+		tabs := drawmap[g.drawName].order
 		for i := 0; i < tabs; i++ {
 			fmt.Print("\t")
 		}
@@ -112,7 +118,7 @@ func main() {
 		fmt.Println(" ", " ", g.sheetName)
 
 		if g.winnerTo != nil {
-			printTeamTree(g.winnerTo, "w", tabs+1)
+			printTeamTree(g.winnerTo, "w")
 		} else {
 			for i := 0; i < tabs+1; i++ {
 				fmt.Print("\t")
@@ -121,7 +127,7 @@ func main() {
 		}
 
 		if g.loserTo != nil {
-			printTeamTree(g.loserTo, "l", tabs+1)
+			printTeamTree(g.loserTo, "l")
 		} else {
 			for i := 0; i < tabs+1; i++ {
 				fmt.Print("\t")
@@ -129,7 +135,11 @@ func main() {
 			fmt.Println(g.loserToGameID)
 		}
 	}
-	printTeamTree(bonspiel[teams[0].startingGameID], "s", 0)
+	//printTeamTree(bonspiel[teams[0].startingGameID], "s")
+	for _, t := range teams {
+		startGame := bonspiel[t.startingGameID]
+		renderPath(defaultPathConfig, startGame, draws, startGame.drawName+" "+startGame.sheetName+".png")
+	}
 }
 
 func loadBonspiel(drawDataFileName string) map[string]*game {
@@ -177,6 +187,7 @@ func loadBonspiel(drawDataFileName string) map[string]*game {
 	// }
 	return bonspiel
 }
+
 func loadTeams(teamsDataFileName string) []team {
 	nameIndex := 0
 	startingGameIDIndex := 1
@@ -201,6 +212,31 @@ func loadTeams(teamsDataFileName string) []team {
 	return teams
 }
 
+func loadDraws(drawDataFileName string) []draw {
+	orderIndex := 0
+	nameIndex := 1
+
+	readFile, err := os.Open(drawDataFileName)
+	if err != nil {
+		panic(err)
+	}
+	fileScanner := bufio.NewScanner(readFile)
+	fileScanner.Split(bufio.ScanLines)
+	draws := make([]draw, 0)
+	for fileScanner.Scan() {
+		fields := strings.Fields(fileScanner.Text())
+		order, _ := strconv.Atoi(fields[orderIndex])
+		name := fields[nameIndex]
+
+		draws = append(draws, draw{
+			order: order,
+			name:  name,
+		})
+	}
+
+	return draws
+}
+
 type game struct {
 	gameID         string
 	drawName       string
@@ -216,7 +252,7 @@ type team struct {
 	startingGameID string
 }
 
-type ifWinGame struct {
-	win    bool
-	gameID string
+type draw struct {
+	order int
+	name  string
 }

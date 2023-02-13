@@ -1,0 +1,10 @@
+1	Fri-1
+2	Fri-2
+3	Sat-1
+4	Sat-2
+5	Sat-3
+6	Sat-4
+7	Sat-5
+8	Sun-1
+9	Sun-2
+10	Sun-3
